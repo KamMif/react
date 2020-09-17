@@ -124,6 +124,7 @@ function dispatchDiscreteEvent(
   container,
   nativeEvent,
 ) {
+  console.log({text: 'hello test' });
   if (
     !enableLegacyFBSupport ||
     // If we are in Legacy FB support mode, it means we've already
